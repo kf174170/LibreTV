@@ -8,7 +8,7 @@ on:
 
 jobs:
   bump-version:
-    if: github.repository == 'LibreSpark/LibreTV'
+    if: github.repository == 'kf174170/TYsonTV'
     runs-on: ubuntu-latest
     env:
       TZ: 'Asia/Shanghai'
