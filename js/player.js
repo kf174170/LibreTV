@@ -399,12 +399,12 @@ function initPlayer(videoUrl, sourceCode) {
         contextmenu: [                   // 自定义右键菜单
             {
                 text: '关于 TYsonTV',
-                link: 'https://github.com/kf174170/LibreTV'
+                link: 'https://github.com/kf174170/TYsonTV'
             },
             {
                 text: '问题反馈',
                 click: (player) => {
-                    window.open('https://github.com/kf174170/LibreTV/issues', '_blank');
+                    window.open('https://github.com/kf174170/TYsonTV/issues', '_blank');
                 }
             }
         ],
